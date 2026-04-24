@@ -83,7 +83,8 @@ if(form){
 
 (function(){
   const path = window.location.pathname;
-  const isHome = /(^\/$|promt\.html$)/.test(path);
+  // const isHome = /(^\/$|promt\.html$)/.test(path);
+  const isHome = /(promt\.html$)/.test(path);
   if(!isHome) return;
  
   const bd = document.createElement('div');
@@ -117,7 +118,8 @@ if(form){
 
 (function(){
   const path = window.location.pathname;
-  const isHome = /(^\/$|spen-bat\.html$)/.test(path);
+  // const isHome = /(^\/$|spen-bat\.html$)/.test(path);
+  const isHome = /(spen-bat\.html$)/.test(path);
   if(!isHome) return;
  
   const bd = document.createElement('div');
